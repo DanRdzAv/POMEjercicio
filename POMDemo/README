@@ -1,0 +1,14 @@
+Este framework fue utilizando Python, Selenium y Unitest, se utilizo Unitest ya que testng no hay para python y decidi usar Unitest
+las dependencias necesarias para el proyecto son
+- Python
+- Selenium
+- PIP
+- geckidriver para manejar el firefox
+- Unittest 
+- html-testRunner 
+
+para correr pruebas sin reporte:
+- py -m unittest discover Tests
+
+para correr pruebas con reporte situarse en la carpeta Tests y correr:
+- py test_amazon.py
